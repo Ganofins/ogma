@@ -55,8 +55,8 @@ importers:
         specifier: ^1.7.3
         version: 1.7.3
       '@grpc/proto-loader':
-        specifier: 0.7.6
-        version: 0.7.6
+        specifier: 0.7.7
+        version: 0.7.7
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@17.0.2)
@@ -3455,6 +3455,18 @@ packages:
       protobufjs: 7.2.3
       yargs: 16.2.0
 
+  /@grpc/proto-loader@0.7.7:
+    resolution: {integrity: sha512-1TIeXOi8TuSCQprPItwoMymZXxWT0CPxUhkrkeCUH+D8U7QDwQ6b7SUz2MaLuWM2llT+J/TVFLmQI5KtML3BhQ==}
+    engines: {node: '>=6'}
+    hasBin: true
+    dependencies:
+      '@types/long': 4.0.2
+      lodash.camelcase: 4.3.0
+      long: 4.0.0
+      protobufjs: 7.2.3
+      yargs: 17.7.2
+    dev: true
+
   /@humanwhocodes/config-array@0.11.10:
     resolution: {integrity: sha512-KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==}
     engines: {node: '>=10.10.0'}
@@ -4738,7 +4750,7 @@ packages:
       rxjs: 7.8.0
       tmp: 0.2.1
       tslib: 2.5.0
-      yargs: 17.7.1
+      yargs: 17.7.2
       yargs-parser: 21.1.1
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -14036,7 +14048,7 @@ packages:
       smartwrap: 2.0.2
       strip-ansi: 6.0.1
       wcwidth: 1.0.1
-      yargs: 17.7.1
+      yargs: 17.7.2
     dev: true
 
   /tweetnacl@1.0.3:
@@ -14878,6 +14890,19 @@ packages:
 
   /yargs@17.7.1:
     resolution: {integrity: sha512-cwiTb08Xuv5fqF4AovYacTFNxk62th7LKJ6BL9IGUpTJrWoU7/7WdQGTP2SjKf1dUNBGzDd28p/Yfs/GI6JrLw==}
+    engines: {node: '>=12'}
+    dependencies:
+      cliui: 8.0.1
+      escalade: 3.1.1
+      get-caller-file: 2.0.5
+      require-directory: 2.1.1
+      string-width: 4.2.3
+      y18n: 5.0.8
+      yargs-parser: 21.1.1
+    dev: true
+
+  /yargs@17.7.2:
+    resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
     dependencies:
       cliui: 8.0.1
